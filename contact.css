@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+header{
+    align-items: center;
+    padding: 15px 50px;
+}
+.header-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+    
+    
