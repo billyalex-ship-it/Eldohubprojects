@@ -7,36 +7,34 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <header>
-        <div class="header-links">
-        <a href="index.html">Home</a>
-        <a href="projects.html">My projects</a>
-        </div>
+    <header> 
+        <div class="header-intro"><h1>Billy</h1></div>
+        <nav class="header-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About me</a>
+        </nav>
     </header>
     <section class="card">
-        <h1>Contact me</h1>
-        <p>Get in touch to get your new website now<br>Fill in the form!!</p>
-    
-            <form id="contact-form">
-                
-                <input type="text" placeholder="Name:"><br><br>
-                
-                <input type="tel" placeholder="Phone:"><br><br>
-               
-               <input type="email" placeholder="Email:"><br><br>
-               <textarea placeholder="Message:"></textarea><br><br>
-            </form>
-        
+        <div class="card-header">
+            <h1>Contact me</h1>
+            <p>Get in touch to get your new website now<br>Fill in the form!!</p>
+        </div>
+        <form class="card-info">
+            <input class="input" type="text" placeholder="Name:" required>
+            <input class="input" type="tel" placeholder="Phone:" required>
+            <input class="input" type="email" placeholder="Email:" required>
+            <textarea class="input" placeholder="Message" required></textarea>
+            <button class="input" type="submit">Send Message</button>
+        </form>
     </section>
     <section id="ending">
         <footer>
-<div class="socials">
-
-
-</div>
-<div>
-   <p> &copy.2026 All rights reserved</p>
-</div>
+            <p>&copy; 2026 All rights reserved</p>
+            <div class="footer-links">
+                <img src="./images/icon-facebook.svg" alt="facebook icon">
+                <img src="./images/icon-instagram.svg" alt="instagram icon">
+                <img src="./images/icon-twitter.svg" alt="twitter icon">
+            </div>
         </footer>
     </section>
 </body>
